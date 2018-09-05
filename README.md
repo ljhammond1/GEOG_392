@@ -1,9 +1,9 @@
 # Hammond_GEOG392
 fall 2018 geography 392, Lauren Hammond
 
-|Labs|
-|--------|
-|[Lab1](Lab/Week01/README.md)|
+|Labs|:Homework:|Project:|
+|--------|:--------:|--------:|
+|[Lab1](Lab/Week01/README.md)|:[Week1](Homework\Week01\README.md):|
 |[Lab2](Lab/Week02/README.md)|
 |[Lab3](Lab\Week03\README.md)|
 |[Lab4](Lab\Week04\README.md)|

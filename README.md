@@ -17,9 +17,3 @@ fall 2018 geography 392, Lauren Hammond
 |[Lab12](Lab/Week12/README.md)|[Week12](Homework/Week12/README.md)|
 |[Lab13](Lab/Week13/README.md)|[Week13](Homework/Week13/README.md)|
 |[Lab14](Lab/Week14/README.md)|[Week14](Homework/Week14/README.md)|
-
-
-
-https://github.tamu.edu/ljhammond1996/Hammond_GEOG392/tree/master/Lab
-https://github.tamu.edu/ljhammond1996/Hammond_GEOG392/tree/master/Homework
-https://github.tamu.edu/ljhammond1996/Hammond_GEOG392/tree/master/project

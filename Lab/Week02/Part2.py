@@ -11,3 +11,4 @@ def SumList(part2):
 
 # test by printing SumList function for part2 list
 print (SumList(part2))
+# should return 719788176

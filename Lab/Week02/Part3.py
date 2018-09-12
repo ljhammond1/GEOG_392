@@ -10,4 +10,6 @@ def SumListEvens(part3):
             result3 = result3 + i
     return result3
 
+#test by printing result of SumListEvens for part3
 print (SumListEvens(part3))
+# should return 458

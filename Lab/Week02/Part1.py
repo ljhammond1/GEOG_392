@@ -11,4 +11,4 @@ def MultiplyList(part1):
 
 # test by printing multiplyList for part1 list
 print (MultiplyList(part1))
-
+# should return 302231454903657293676544

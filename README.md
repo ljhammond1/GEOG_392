@@ -3,7 +3,7 @@ fall 2018 geography 392, Lauren Hammond
 
 |Labs|Homework|Project|
 |--------|:--------:|--------:|
-|[Lab1](Lab/Week01/README.md)|[Week1](Homework/Week01/README.md)|[Proposal](Project/Proposal/README.md)|
+|[Lab1](Lab/Week01/)|[Week1](Homework/Week01/README.md)|[Proposal](Project/Proposal/README.md)|
 |[Lab2](Lab/Week02/README.md)|[Week2](Homework/Week02/README.md)|[StatusReport1](Project/StatusReport1/README.md)|
 |[Lab3](Lab/Week03/README.md)|[Week3](Homework/Week03/README.md)|[StatusReport2](Project/StatusReport2/README.md)|
 |[Lab4](Lab/Week04/README.md)|[Week4](Homework/Week04/README.md)|[Final](Project/Final/README.md)|

@@ -1,1 +1,1 @@
-LAuren HAmmond
+Lauren Hammond

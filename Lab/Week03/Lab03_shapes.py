@@ -1,11 +1,7 @@
 class Shape(): # DO I NEED TO GET RID OF COLOR?
-    def __init__(self, color):
-        self.color = color
-
-    def getArea():
+    def __init__(self):
         pass
 
-obj_shape = Shape()
 
 class Rectangle(Shape):
     def __init__(self, length, width)
@@ -44,6 +40,7 @@ for line in lines:
     if Shape == 'Rectangle':
         x = int(components[1])
         y = int(components[2])
+        totalShapes
      elif Shape ==:
         pass
 

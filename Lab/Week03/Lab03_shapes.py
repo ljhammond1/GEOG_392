@@ -25,7 +25,7 @@ class Triangle(Shape):
     def getArea(self):
         return 0.5 * self.b * self.h
 
-# open the shapes .txt file so the entries can be read
+# open the shapes .txt file so the data entries can be read in
 # read the lines of the file
 # close the file
 file = open(r'/Users/Ljhammond1996/Desktop/Fall_18/Programming/Hammond_GEOG392/Lab/Week03/shape_info.txt', 'r')
@@ -36,11 +36,11 @@ file.close()
 totalShapes = []
 
 # for each line in the shapes .txt file, read components by splitting them at commas
-# make clear that the shape designation (triangle, rectangle, or circle) is index 0, or the first argument. 
+# make shape designation (triangle, rectangle, or circle) is index 0, or the first argument, and its own object 
 for line in lines:
     components = line.split(",")
     Shape = components[0]
-
+#iterate through the list and determine the area for each individual shape based on above defined area functions
     if Shape == 'Rectangle':
         x = int(components[1])
         y = int(components[2])
@@ -48,12 +48,14 @@ for line in lines:
     elif Shape == 'Circle':
         x = int(components[1])
         totalShapes.append(Circle(x))
-    if Shape == 'Triangle':
+    elif Shape == 'Triangle':
         x = int(components[1])
         y = int(components[2])
-        totalShapes.append(Triangle(1,2))
+        totalShapes.append(Triangle(x,y))
     else:
         pass
-
+# print each shape area
 for shape in totalShapes:
     print(shape.getArea())
+
+print('Printing Finished')

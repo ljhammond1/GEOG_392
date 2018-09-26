@@ -1,38 +1,42 @@
-class Shape(): # DO I NEED TO GET RID OF COLOR?
+# define parent class Shape, including the self argument so something else can be placed inside
+class Shape(): 
     def __init__(self):
         pass
 
-
+# define subclasses Rectangle, Circle, and Triangle
+# use __init__ and include the self argument 
+# include & define arguments for the measurements needed to calculate area (height, width, length, radius, etc.)
+# define the getArea function for that spcific shape subclass
 class Rectangle(Shape):
-    def __init__(self, length, width)
+    def __init__(self, length, width):
         self.l = length
-        self.w = Width
-
+        self.w = width
     def getArea(self):
         return self.l * self.w
-
 class Circle(Shape):
     def __init__(self, radius):
         self.r= radius
-
     def getArea(self):
         return 3.14 * self.r * self.r
-
 class Triangle(Shape):
     def __init__(self, base, height):
         self.b = base
         self.h = height
-
     def getArea(self):
         return 0.5 * self.b * self.h
 
-
-file = open(r'\Lab\Week03\shape_info.txt', 'r')
+# open the shapes .txt file so the entries can be read
+# read the lines of the file
+# close the file
+file = open(r'/Users/Ljhammond1996/Desktop/Fall_18/Programming/Hammond_GEOG392/Lab/Week03/shape_info.txt', 'r')
 lines = file.readlines()
 file.close()
 
+# declare a set that the shapes from the file will fill
 totalShapes = []
 
+# for each line in the shapes .txt file, read components by splitting them at commas
+# make clear that the shape designation (triangle, rectangle, or circle) is index 0, or the first argument. 
 for line in lines:
     components = line.split(",")
     Shape = components[0]
@@ -40,11 +44,16 @@ for line in lines:
     if Shape == 'Rectangle':
         x = int(components[1])
         y = int(components[2])
-        totalShapes
-     elif Shape ==:
+        totalShapes.append(Rectangle(x,y)) #append actual shape instance here
+    elif Shape == 'Circle':
+        x = int(components[1])
+        totalShapes.append(Circle(x))
+    if Shape == 'Triangle':
+        x = int(components[1])
+        y = int(components[2])
+        totalShapes.append(Triangle(1,2))
+    else:
         pass
 
-    if Shape == 'Triangle':
-        print (Triangle.getArea())
-    elif :
-        pass
+for shape in totalShapes:
+    print(shape.getArea())

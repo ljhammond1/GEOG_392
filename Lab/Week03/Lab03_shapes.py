@@ -28,7 +28,7 @@ class Triangle(Shape):
 # open the shapes .txt file so the data entries can be read in
 # read the lines of the file
 # close the file
-file = open(r'/Users/Ljhammond1996/Desktop/Fall_18/Programming/Hammond_GEOG392/Lab/Week03/shape_info.txt', 'r')
+file = open(r'Hammond_GEOG392/Lab/Week03/shape_info.txt', 'r')
 lines = file.readlines()
 file.close()
 

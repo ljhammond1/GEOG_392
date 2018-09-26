@@ -6,7 +6,7 @@ class Shape():
 # define subclasses Rectangle, Circle, and Triangle
 # use __init__ and include the self argument 
 # include & define arguments for the measurements needed to calculate area (height, width, length, radius, etc.)
-# define the getArea function for that spcific shape subclass
+# define the getArea function for that specific shape subclass
 class Rectangle(Shape):
     def __init__(self, length, width):
         self.l = length
